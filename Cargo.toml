@@ -2,11 +2,11 @@
 name = "defmtusb"
 description = "defmt logging over USB interface"
 
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 
 readme = "README.md"
-repository = "https://github.com/micro-rust/defmtusb"
+repository = "https://github.com/soldierkam/defmtusb"
 
 license = "MIT OR MPL-2.0"
 
@@ -23,23 +23,23 @@ keywords = ["defmt", "embedded", "logging", "usb"]
 version = "*"
 
 [dependencies.defmt]
-version = "=0.3.0"
+version = "=1.0.1"
 
 [dependencies.embassy-futures]
 version = "0.1.0"
 git = "https://github.com/embassy-rs/embassy"
 
 [dependencies.embassy-time]
-version = "0.1.0"
+version = "0.4.0"
 features = ["defmt", "defmt-timestamp-uptime"]
 git = "https://github.com/embassy-rs/embassy"
 
 [dependencies.embassy-usb]
-version = "0.1.0"
+version = "0.4.0"
 git = "https://github.com/embassy-rs/embassy"
 
 [dependencies.static_cell]
-version = "^1.2"
+version = "^2.1"
 features = ["nightly"]
 
 
