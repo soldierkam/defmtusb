@@ -1,24 +1,12 @@
 //! `defmt` logger and USB transport layer.
 
-
-
 #![no_std]
-
-
-
-#![feature(type_alias_impl_trait)]
-
-
 
 mod buffer;
 mod controller;
 mod task;
 
-
-
 pub use task::{ run, logger, };
-
-
 
 /// The restore state of the critical section.
 #[link_section = ".bss.defmt-usb.RESTORE"]
