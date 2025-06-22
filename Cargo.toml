@@ -27,25 +27,19 @@ version = "=1.0.1"
 
 [dependencies.embassy-futures]
 version = "0.1.0"
-git = "https://github.com/embassy-rs/embassy"
 
 [dependencies.embassy-time]
 version = "0.4.0"
 features = ["defmt", "defmt-timestamp-uptime"]
-git = "https://github.com/embassy-rs/embassy"
 
 [dependencies.embassy-usb]
 version = "0.4.0"
-git = "https://github.com/embassy-rs/embassy"
 
 [dependencies.static_cell]
 version = "^2.1"
 features = ["nightly"]
 
-
-
 [features]
-
 default = ["buffersize-256"]
 
 buffersize-64   = []
