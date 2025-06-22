@@ -2,7 +2,7 @@
 name = "defmtusb"
 description = "defmt logging over USB interface"
 
-version = "0.2.0"
+version = "0.2.1"
 edition = "2021"
 
 readme = "README.md"
